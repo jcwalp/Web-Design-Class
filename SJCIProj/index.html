@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="./script.js"></script>
+  <link rel='stylesheet' type='text/css' href='./styles.css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Marauder Ville | Welcome</title>
+</head>
+<body>
+  <div class="fluid-container">
+    <div class="maroon-back">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <header>
+          <span class="logo">MARAUDERVILLE</span>
+          <span class='for-the-boys-text'>For The Boys</span>
+          <div class="get-started">
+            <form >
+              <input type="button" class="get-started-login" value="Menu" onclick="window.location.href='./menu.html'"/>
+              <input type="button" class="get-started-free" value="Login"/>
+            </form>
+          </div>
+        </header>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 offset-md-3 title-container">
+        <h1 class="title-brand-text">Marauderville Bar & Grille</h1>
+        <h1 class="title-slogan-text">For The Boys Since 1861</h1>
+        <p class='title-description-text'>Lorem ipsum dolor sit amet.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-2 offset-md-4">
+        <input type="text" class="title-email-field" placeholder='name@company.com'>
+      </div>
+      <div class="col-md-2 aligned">
+        <button class="title-get-started-button">Sign Up For Rewards</button>
+        <p class='credit-card-text'>No Credit Card Required</p>
+      </div>
+    </div>
+  </div>
+    <div class="row slideshow-container">
+     <div class="col-md-2 arrow-container">
+         <a class="previous" onclick="plusSlides(-1)">&#10094;</a>
+     </div>
+     <div class="col-md-8">
+       <div class='slider fadeout initial-slide'>
+         <h6 class='testimonial-title'>For The Boys!</h6>
+         <div class="maroon-line"></div>
+         <p class='testimonial-text'>"The Dluhy Dinner Combo is definitely my favorite from Maurauderville Bar & Grille.
+           Definitely check this place out. You wont regret it."</p>
+         <img src="./2-chainz.jpg" alt="2 Chainz" class="testimonial-pic">
+         <span class=testimonial-name>2-Chainz,</span>
+         <span class=testimonial-company>Rapper</span>
+       </div>
+       <div class='slider fadeout'>
+         <h6 class='testimonial-title'>Lorem ipsum dolor sit amet.</h6>
+         <div class="maroon-line"></div>
+         <p class='testimonial-text'>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid illum velit ab labore quos quaerat."</p>
+         <img src="./drake.jpg" alt="Drake" class="testimonial-pic">
+         <span class=testimonial-name>Drake,</span>
+         <span class=testimonial-company>Media Producer</span>
+       </div>
+       <div class='slider fadeout'>
+         <h6 class='testimonial-title'>Lorem ipsum dolor sit amet.</h6>
+         <div class="maroon-line"></div>
+         <p class='testimonial-text'>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam molestiae excepturi maiores perferendis. Nesciunt, impedit."</p>
+         <img src="./young-thug.jpg" alt="Young Thug" class="testimonial-pic">
+         <span class=testimonial-name>Young Thug,</span>
+         <span class=testimonial-company>Rapper and Producer</span>
+       </div>
+     </div>
+     <div class="col-md-2 arrow-container">
+       <a class="next" onclick="plusSlides(1)">&#10095;</a>
+     </div>
+   </div>
+  </div> <!-- END OF FLUID CONTAINER -->
+</body>
+</html>
