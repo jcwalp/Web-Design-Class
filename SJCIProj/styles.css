@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   padding: 0;
@@ -112,32 +113,6 @@ header {
   border-radius: 3%;
 }
 
-.menu-lower {
-  display: inline;
-}
-
-.menu-lower-button {
-  background-color: #c0392b;
-  color:white;
-  font-size: 15px;
-  border: solid white;
-  border-width: thin;
-  padding: .5em;
-  border-radius: 3%;
-  text-align: center;
-}
-
-.menu-lower-button:hover {
-  background-color: white;
-  color: #c0392b;
-  cursor: pointer;
-}
-
-.menu-lower-subtext {
-  color: white;
-  font-size: 15px;
-}
-
 .aligned {
   text-align:center;
 }
@@ -168,62 +143,6 @@ header {
   margin-left: .3em;
 }
 
-.title-watch-video-text {
-  font-size: 13px;
-  color:white;
-  display:inline-block;
-  text-align:center;
-}
-
-.watch-video-container {
-  margin-top: 1em;
-  text-align:center;
-}
-
-.title-play-icon {
-  color: white;
-  display:inline-flex;
-  align-content: center;
-  vertical-align: middle;
-  margin-right: 5em;
-  margin-left: 1em;
-  font-size: 8px;
-}
-
-.watch-video-container:hover {
-  cursor: pointer;
-	text-shadow: 0px 0px 10px rgba(255,255,100,1);
-}
-
-/* WORK FLOW SECTION */
-
-.work-flow-container {
-  margin-top: 5em;
-  text-align:center;
-}
-
-.process-text {
-  text-align:center;
-  font-size: 14px;
-}
-
-/* HOW IT HELPS YOU IMPROVE SECTION */
-
-.improve-text-container {
-  margin-top: 9em;
-  text-align:center;
-}
-
-.client-onboard-container img {
-    margin-left: 33%;
-    margin-top: 3em;
-}
-
-.lightbulb-icon {
-  margin-top: 3em;
-  margin-bottom: 1em;
-}
-
 /* Line Styling */
 
 .maroon-line {
@@ -234,31 +153,6 @@ header {
   width: 90px;
 }
 
-.procedure-subtext {
-  font-size: 12px;
-  color:grey;
-}
-
-.explore-features-container {
-  margin-top: 3.5em;
-  text-align:center;
-}
-
-.explore-features-button {
-  color: #2CA5E4;
-  background-color:white;
-  border: solid #2CA5E4;
-  border-width: thin;
-  padding: .75em;
-  font-size: 12px;
-  border-radius: 3%;
-}
-
-.explore-features-button:hover {
-  background-color: #2CA5E4;
-  color: white;
-  cursor: pointer;
-}
 
 /* TESTIMONIAL SLIDESHOW */
 
@@ -312,27 +206,22 @@ header {
   font-size: 14px;
 }
 
-/* TRUSTED COMPANIES CONTAINER */
-
-.trusted-companies-container {
-  text-align:center;
-  color:#403e3e;
-  margin: 2em 0 6em 0;
+/* Video container */
+.center {
+    margin: 0 auto;
+    display: block
 }
 
-.trusted-companies {
-  margin-bottom: .5em;
+.video-container {
+  width: 100%;
+  height: 600px;
 }
 
-/* SIGNUP BANNER SECTION */
-
-.signup-banner {
-  background-color: #2CA5E4;
-  text-align:center;
-}
-
-.signup-banner-text-container {
-  color:white;
-  margin-top: 3em;
-  margin-bottom: 3em;
+.video-text{
+  text-align: center;
+  color: #c0392b;
+  margin-bottom: 1em;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-color: #6c7a89;
 }
