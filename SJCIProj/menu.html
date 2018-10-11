@@ -4,18 +4,89 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel='stylesheet' type='text/css' href='./styles-menu.css'>
+  <script type="text/javascript" src="script.js"></script>
+  <link rel='stylesheet' type='text/css' href='./menu-styles.css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <title>Marauder Ville | Menu</title>
+  <title>MarauderVille | Menu</title>
 </head>
 <body>
-
-
-
-
-
-
-
+  <div class="container-fluid">
+    <div class="gray-back">
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <header>
+            <span class="logo">MARAUDERVILLE BAR & GRILLE</span>
+            <img class="seal-image" src="./images/transparentseal.PNG">
+            <div class="btn-top">
+              <form>
+                <input type="button" class="home-btn" value="Home" onclick="window.location.href='./index.html'"/>
+              </form>
+            </div>
+          </header>
+        </div>
+      </div>
+    </div> <!-- End of Gray Back -->
+    <div class="row">
+      <div class="col-md-8 offset-md-2 menu-title">
+      <h class="menu-text">MENU</h>
+      </div>
+    </div>
+    <div class="row slideshow-container">
+     <div class="col-md-2 arrow-container">
+         <a class="previous" onclick="plusSlides(-1)">&#10094;</a>
+     </div>
+     <div class="col-md-8">
+       <div class='slider fadeout initial-slide'>
+         <h6 class='meal-title'>Dluhy Dinner Combo</h6>
+         <div class="maroon-line"></div>
+         <p class='meal-text'>Enjoy a nicely charcoal broiled foot long along with our freshest french fries</p>
+         <img src="./images/menu-images/dluhy-dinner-combo.jpg" class="meal-pic">
+         <img src="./images/menu-images/Dhuly.jpg" class="teacher-pic">
+         <span class=teacher-name>Kyle Dluhy, </span>
+         <span class=teacher-class>Technology Dept, SJCI</span>
+       </div>
+       <div class='slider fadeout'>
+         <h6 class='meal-title'>Belleman's Egg Burger</h6>
+         <div class="maroon-line"></div>
+         <p class='meal-text'>The Brother wasn't joking around when he made this. This burger comes loades with everything you'd expect but with a fried egg to top it off.</p>
+         <img src="./images/menu-images/belleman-egg-burger.jpg" class="meal-pic">
+         <img src="./images/menu-images/belleman.jpg" class="teacher-pic">
+         <span class=teacher-name>Brother Christopher Belleman, FSC, </span>
+         <span class=teacher-class>Spanish Dept, SJCI</span>
+       </div>
+       <div class='slider fadeout'>
+         <h6 class='meal-title'>Chesebro's 3 Cheese Mac & Cheese</h6>
+         <div class="maroon-line"></div>
+         <p class='meal-text'>Chesebro has traveled all over the world but we have no clue where he found this recipie. All we know is it is the best goddamn mac and cheese on the planet.</p>
+         <img src="./images/menu-images/3-cheese-mac.jpg" class="meal-pic">
+         <img src="./images/menu-images/chesebro.jpg" class="teacher-pic">
+         <span class=teacher-name>William Chesebro, </span>
+         <span class=teacher-class>Social Studies Dept, SJCI</span>
+       </div>
+       <div class='slider fadeout'>
+         <h6 class='meal-title'>Devlin's Deviled Eggs</h6>
+         <div class="maroon-line"></div>
+         <p class='meal-text'>Start your meal out right with these kickass Deviled Eggs from Devlin himself.</p>
+         <img src="./images/menu-images/devlin-deviled-eggs.jpg"class="meal-pic">
+         <img src="./images/menu-images/devlin.jpg" class="teacher-pic">
+         <span class=teacher-name>Bradley Devlin '05, </span>
+         <span class=teacher-class>Math Dept, SJCI</span>
+       </div>
+       <div class='slider fadeout'>
+         <h6 class='meal-title'>Stew's Shrimp Scampi</h6>
+         <div class="maroon-line"></div>
+         <p class='meal-text'>Stew's shrimp scampi will leave you stunned and amazed. nuff said.</p>
+         <img src="./images/menu-images/stew-shrimp-scampi.jpg" class="meal-pic">
+         <img src="./images/menu-images/stew.jpg" class="teacher-pic">
+         <span class=teacher-name>Michael Stewart, </span>
+         <span class=teacher-class>Social Studies Dept, SJCI</span>
+       </div>
+     </div>
+     <div class="col-md-2 arrow-container">
+       <a class="next" onclick="plusSlides(1)">&#10095;</a>
+     </div>
+   </div>
+  </div>  <!--End of fluid container -->
 </body>
 </html>
